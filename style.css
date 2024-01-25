@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --red-color: #BC424E;
+}
+
+.dot {
+    background-color: var(--red-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.myactive:hover {
+    border-bottom: 2px blue dashed;
+}
+
+.web-traffic {
+    width: 90%;
+}
+
+.girl {
+    max-width: 300px;
+}
