@@ -188,13 +188,22 @@
   }
 
   .sde-need-right-side {
-    text-align: center;
+    text-align: left;
   }
 
   .sde-need-card {
     margin: 20px 0;
+    background-color: white;
+  
+  }
+  .sde-need-card:hover {
+     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  }
+  .sde-need-card-text,.sde-need-card-title{
+    text-align: left;
   }
 
+ 
   .sde-need-card img {
     max-width: 100%;
     height: auto;
