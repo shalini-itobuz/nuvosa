@@ -226,12 +226,13 @@
 
   }
 
-@media(max-width:350px){
+@media(max-width:430px){
     .web-traffic{
         display: flex;
         flex-direction: column;
     }
 }
+
 
 @media(min-width:768px){
     .socialmedia-girl{position:relative;}
