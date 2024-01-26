@@ -208,6 +208,18 @@
     max-width: 100%;
     height: auto;
   }
+
+.client-heading-section{
+  width:90%;
+  margin: 0 auto;
+}
+  .client-card{
+    width:10vw;
+  }
+
+  .client-dot {
+   display: none;
+  }
   @media screen and (min-width: 425px) {
     .marketing-card{
         margin:0 auto;
@@ -233,6 +245,13 @@
     margin-bottom: 30px;
   }
 
+  }
+  .client-dot {
+    width: 2px;
+    height: 15px;
+    border-radius: 50%;
+   margin-top: 25px;
+   display: unset;
   }
 
 @media(max-width:430px){
