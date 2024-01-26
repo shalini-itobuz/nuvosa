@@ -1,78 +1,438 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Nuvosa</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  </head>
 
-<body>
-
+  <body>
     <!--NAVBAR SECTION BEGIN-->
-    <nav class="navbar navbar-expand-lg  contatiner">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg container">
+      <div class="container">
+        <a class="navbar-brand d-flex fs-1 my-auto" href="#"
+          >nuvosa
+          <div class="navdot mt-4 ms-1"></div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav d-flex justify-content-center mb-2 mb-lg-0 flex-grow-1"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link myactive fs-5 me-3"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link myactive fs-5 me-3" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link myactive fs-5 me-3"
+                aria-current="page"
+                href="#"
+                >Blog</a
+              >
+            </li>
 
-            <a class="navbar-brand d-flex fs-2 my-auto " href="#">nuvosa <div class="dot my-auto ms-1"></div> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <li class="nav-item">
+              <a
+                class="nav-link myactive fs-5 me-3"
+                aria-current="page"
+                href="#"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link myactive fs-5" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button type="button" class="btn btn-outline-secondary me-2">
+              Let's Talk
             </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex justify-content-center   mb-2 mb-lg-0 flex-grow-1 ">
-                    <li class="nav-item ">
-                        <a class="nav-link myactive fs-5 me-3" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link myactive fs-5 me-3" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link myactive fs-5 me-3" aria-current="page" href="#">Blog</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link myactive fs-5 me-3" aria-current="page" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link myactive fs-5" aria-current="page" href="#">Contact</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <button type="button" class="btn btn-outline-secondary me-2">Let's Talk</button>
-                    <button class="btn btn-outline-success bg-warning " type="submit"><img
-                            src="./images/navbar/search.svg" alt="search-icon"></button>
-                </form>
-            </div>
+            <button class="btn btn-outline-success bg-warning" type="submit">
+              <img src="./images/navbar/search.svg" alt="search-icon" />
+            </button>
+          </form>
         </div>
+      </div>
     </nav>
     <!--NAVBAR SECTION END-->
 
     <!--WEB-TRAFFIC SECTION BEGIN-->
-    <section class="web-traffic d-flex justify-content-end mt-3">
+    <section class="web-traffic d-flex mt-3 container">
+      <div class="web-traffic-info mt-5 pe-5 col-12 col-md-8 position-relative">
+        <h2 class="display-5 fw-bold">
+          Increase your web <br />
+          traffic with our
+          <span
+            class="border border-success border-2 position-relative d-inline-block text-primary"
+            >experts</span
+          >
+        </h2>
+        <p class="fs-5 pt-3">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when It is a long .It is a long established
+          fact that a reader will be distracted by the readable content of a is
+          simply. It is a long established fact that a reader will be
+          distracted.
+        </p>
 
-        <div class="socialmedia-girl ">
-            <img class="girl  " src="./images/web-traffic/girl.png" alt="socialmedia girl">
+        <button type="button" class="btn btn-warning mt-3 position-relative">
+          Get Started</button
+        ><span
+          ><img
+            class="position-absolute take-a-tour"
+            src="./images/web-traffic/Take a tour.svg"
+        /></span>
+      </div>
+      <div
+        class="socialmedia-girl d-flex justify-content-end col-12 col-md-4 flex-column align-items-end"
+      >
+        <img
+          src="./images/web-traffic/girl.png"
+          alt="socialmedia girl"
+          class="img-fluid max-width-100"
+        />
+        <div class="team-background custom-bg px-4 d-none d-sm-block">
+          <div class="fs-6 fw-bold mb-3">Our Creative Team</div>
+          <div class="person-images mt-4">
+            <div class="row">
+              <div class="col-md-2 col-sm-4 mb-3">
+                <div class="circle">
+                  <img src="./images/web-traffic/person1.svg" alt="Image 1" />
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 mb-3">
+                <div class="circle">
+                  <img src="./images/web-traffic/person2.svg" alt="Image 2" />
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 mb-3">
+                <div class="circle">
+                  <img src="./images/web-traffic/person3.svg" alt="Image 3" />
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 mb-3">
+                <div class="circle">
+                  <img src="./images/web-traffic/person4.svg" alt="Image 4" />
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 mb-3">
+                <div class="circle">
+                  <img
+                    src="./images/web-traffic/extra-person.svg"
+                    alt="Image 5"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-
-
-
-
-
 
     <!--WEB-TRAFFIC SECTION END-->
 
+    <!--Marketing section begin-->
+    <section
+      class="mt-5 marketing d-flex justify-content-evenly flex-column flex-xl-row flex-lg-row align-items-center pt-3 py-2"
+    >
+      <div
+        class="marketing-card m-2 p-2 shadow d-flex flex-column justify-content-center align-items-end"
+      >
+        <div class="d-flex">
+          <img
+            class="m-1 marketing-img"
+            src="./images/marketing/socialmedia.svg"
+            alt=""
+          />
+          <h2 class="m-1 d-flex align-items-center">Social Media Management</h2>
+        </div>
+        <h3 class="m-2 mt-3">
+          It is a long established fact that a reader will be distracted by the
+          readable content .It is a long established fact that .
+        </h3>
+        <img src="./images/marketing/Arrow - Right.svg" alt="" />
+      </div>
+      <div
+        class="marketing-card m-2 p-2 shadow d-flex flex-column justify-content-center align-items-end"
+      >
+        <div class="d-flex">
+          <img
+            class="m-1 marketing-img"
+            src="./images/marketing/email.svg"
+            alt=""
+          />
+          <h2 class="m-1 d-flex align-items-center">
+            Email Marketing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </h2>
+        </div>
+        <h3 class="m-2 mt-3">
+          It is a long established fact that a reader will be distracted by the
+          readable content .It is a long established fact that .
+        </h3>
+        <img src="./images/marketing/Arrow - Right.svg" alt="" />
+      </div>
+      <div
+        class="marketing-card m-2 p-2 shadow d-flex flex-column justify-content-center align-items-end"
+      >
+        <div class="d-flex">
+          <img
+            class="m-1 marketing-img"
+            src="images/marketing/seo.svg"
+            alt=""
+          />
+          <h2 class="m-1 d-flex align-items-center">
+            SEO<br />
+            Management
+          </h2>
+        </div>
+        <h3 class="m-2 mt-3">
+          It is a long established fact that a reader will be distracted by the
+          readable content .It is a long established fact that .
+        </h3>
+        <img src="./images/marketing/Arrow - Right.svg" alt="" />
+      </div>
+    </section>
+
+    <!--marketing section end-->
+
+    <!--website-optimization begin -->
+    <section class="website-optimization mt-5 container">
+      <h2>Optimising your <span class="text-primary">Website</span></h2>
+      <p class="fs-6 pt-3">
+        It is a long established fact that a reader will be distracted by the
+        readable<br />
+        content of a page when It is a long .
+      </p>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                class="optimizing-img"
+                src="./images/website-optimization/search.svg"
+                class="card-img-top"
+                alt="Logo 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Keyword Research</h5>
+                <p class="card-text pt-3">
+                  It is a long established fact that a reader will be distracted
+                  by the It is a long established .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                class="optimizing-img"
+                src="./images/website-optimization/Vector.svg"
+                class="card-img-top"
+                alt="Logo 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">content Optimisation</h5>
+                <p class="card-text pt-3">
+                  It is a long established fact that a reader will be distracted
+                  by the It is a long established .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                class="optimizing-img"
+                src="./images/website-optimization/export.svg"
+                class="card-img-top"
+                alt="Logo 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Target Analysis</h5>
+                <p class="card-text pt-3">
+                  It is a long established fact that a reader will be distracted
+                  by the It is a long established .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                class="optimizing-img"
+                src="./images/website-optimization/target.svg"
+                class="card-img-top"
+                alt="Logo 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Continuous Testing</h5>
+                <p class="card-text pt-3">
+                  It is a long established fact that a reader will be distracted
+                  by the It is a long established .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--website-optimization end -->
+
+    <!--Business solution begin-->
+    <section class="business-solution-background container   d-flex">
+        <div class="solutions   ">
+            <div class="solutions-heading display-6 fw-bold  ">
+                Perfect Solution For <br> Your Business
+            </div>
+            
+            <p class="solutions-paragraph">
+                It is a long established fact that a reader will be distracted by the It is a<br> long established .it is a long established fact that a reader will be <br>distracted by the readable content of . <br>
+                <br>
+
+                <span class="pt-5">
+                    <button type="button" class="btn btn-warning ">Learn More</button>
+                </span>
+            </p>
+            
+        </div>
+        <div >
+            <img class="mac-image d-none d-sm-block " src="./images/business-soln/macbook.svg">
+        </div>
+
+    </section>
+
+    <!--Business solution end-->
 
 
+    <!--growing business begin -->
+    <section class=" growing-business container mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-business">
+            <div class="card-body p-2">
+              <img class="growing-business-icon " src="./images/growing-business/graph.png">
+              <h4 class="card-title my-3 fw-medium">Grow Your Business</h4>
+              <p class="card-text">It is a long established fact that a reader will be distracted by.</p>
+              <a class="text-primary" href="#collapseCard1" data-toggle="collapse"  class="btn btn-primary bg-white " >Read more...</a>
+              <div id="collapseCard1" class="collapse">
+                <p>Additional content for Card 1.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4">
+          <div class="card-business">
+            <div class="card-body p-2">
+              <img class="growing-business-icon " src="./images/growing-business/lightning.png">
+              <h4 class="card-title my-3 fw-medium ">Get Quality leads</h4>
+              <p class="card-text">It is a long established fact that a reader will be distracted by.</p>
+              <a class="text-primary" href="#collapseCard2" data-toggle="collapse"  class="btn btn-primary bg-white">Read more...</a>
+              <div id="collapseCard2" class="collapse">
+                <p>Additional content for Card 2.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <section class="col-md-4">
+          <div class="card-business">
+            <div class="card-body p-2">
+              <img class="growing-business-icon" src="./images/growing-business/tag.png">
+              <h4 class="card-title my-3 fw-medium">Drive more sales</h4>
+              <p class="card-text">It is a long established fact that a reader will be distracted by.</p>
+              <a class="text-primary" href="#collapseCard2" data-toggle="collapse"  class="btn btn-primary bg-white" >Read more...</a>
+              <div id="collapseCard2" class="collapse">
+                <p>Additional content for Card 2. </p>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+    <!--growing business end -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
+   <!--choose us begin-->
+   <section class=" choose-us-section container mt-3">
+    <div class="choose-us">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="choose-us-section-heading pb-2 display-6 fw-medium ">Why You Should <span class="text-primary  ">Choose Us.</span> </div>
+          <p class="lead pb-5">It is a long established fact that a reader will be distracted by the readable content .It is a long established fact that a reader .It is a long established fact that a reader will be .</p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-4">
+          <div class="choose-us-card">
+            <img src="./images/choose-us/choose-us-1.svg" alt="Card Image">
+            <div class="card-body">
+              <h4 class="card-title">See Optimazadion</h4>
+              <p class="card-text pt-3">It is a long established fact that a reader will be distracted by.It is a long established.</p>
+              <a href="#" class="btn btn-primary mb-5">Learn More</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="choose-us-card">
+            <img src="./images/choose-us/choose-us-2.svg" alt="Card Image">
+            <div class="card-body">
+              <h4 class="card-title">Keyword Research</h4>
+              <p class="card-text pt-3">It is a long established fact that a reader will be distracted by.It is a long established.</p>
+              <a href="#" class="btn btn-primary mb-5">Learn More</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="choose-us-card">
+            <img src="./images/choose-us/choose-us-3.svg" alt="Card Image">
+            <div class="card-body">
+              <h4 class="card-title">Social Marketing</h4>
+              <p class="card-text pt-3">It is a long established fact that a reader will be distracted by.It is a long established.</p>
+              <a href="#" class="btn btn-primary mb-5">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <!--choose us end-->
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

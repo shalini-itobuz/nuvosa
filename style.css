@@ -9,7 +9,7 @@
     --red-color: #BC424E;
 }
 
-.dot {
+.navdot {
     background-color: var(--red-color);
     width: 10px;
     height: 10px;
@@ -21,9 +21,221 @@
 }
 
 .web-traffic {
-    width: 90%;
+   
+    margin: 0 auto;
 }
 
-.girl {
-    max-width: 300px;
+.take-a-tour{
+    left:45%;
+}
+
+.circle {
+    width: 50px;
+    
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-right: -50px;
+  }
+
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+ .marketing-card {
+    max-width: 350px;
+   
+    transform: scale(0.9);
+  }
+  .marketing h2 {
+    max-width: 250px;
+    line-height: 150%;
+    color: #212528;
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .marketing h3 {
+    color: #828282;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+ 
+  .optimizing-img{
+    width:20vw;
+    margin: 20px auto;
+  }
+  .card {
+    text-align: center;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card:hover {
+    transform: scale(1.1); 
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card:hover::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    height: 2px;
+    background-color: #007bff; /* Blue color for the dash */
+    transform: translateX(-50%);
+  }
+
+  .business-solution-background{
+    background: url(./images/business-soln/solution-background.svg) no-repeat cover;
+    width:100vw;
+    height:auto;
+    
+  }
+  .solutions-heading{
+    padding-top: 20%;
+    padding-left: 15%;
+  }
+  .solutions-paragraph{
+    padding-top: 8%;
+    padding-left: 15%;
+  }
+ .mac-image{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .growing-business{
+  display: flex;
+      align-items: center;
+      justify-content: center;
+      width:80%;
+      margin: 0 auto;
+ }
+ 
+ .card-business {
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  margin: 10px;
+  background-color: white;
+}
+.card-business:hover{
+  transform: scale(1.1);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;}
+
+  .growing-business-icon{
+    width:20%;
+  }
+.choose-us-section{
+  background: #FAFAFA cover;
+}
+  .choose-us {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+
+
+  .choose-us-card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  }
+
+  
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 425px) {
+    .marketing-card{
+        margin:0 auto;
+    }
+  h2 {
+    font-size: 31px !important;
+  }
+  .marketing-card {
+    transform: scale(1) !important;
+  }
+  .custom-bg {
+    background-color: rgba(255, 255, 255, 0.7); /* White with 0.7 opacity */
+  }
+  .card {
+    text-align: center;
+    height: 34vw;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    
+    margin-bottom: 30px;
+  }
+
+  }
+
+@media(max-width:350px){
+    .web-traffic{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(min-width:768px){
+    .socialmedia-girl{position:relative;}
+    .team-background{
+    position:absolute;
+    left:-100px;
+    top:288px;
+    }
+    .optimizing-img{
+        width:8vw;
+        margin: 20px auto;
+      }
+     .mac-image{
+        width:82%;
+        margin-left: 17%;
+    margin-top: 59%;
+       
+      }
+      .choose-us-card img {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+}
+
+@media(min-width:1024px){
+    .mac-image{
+        margin-left: 16%;
+        margin-top: 37%;
+        width:74%;
+    }
 }
