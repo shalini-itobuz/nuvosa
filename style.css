@@ -344,7 +344,7 @@ width:75%;
     text-decoration: none;
   }
 
-  .nav-link:hover {
+  .footer > nav-link:hover {
     color: #dc3545;
   }
 
