@@ -19,8 +19,7 @@
     <nav class="navbar navbar-expand-lg container">
       <div class="container">
         <a class="navbar-brand d-flex fs-1 my-auto" href="#"
-          >nuvosa
-          <div class="navdot mt-4 ms-1"></div>
+          >nuvosa <span style="color: #dc3545;">&bull;</span>
         </a>
         <button
           class="navbar-toggler"
@@ -87,14 +86,17 @@
     <!--WEB-TRAFFIC SECTION BEGIN-->
     <section class="web-traffic d-flex mt-3 container">
       <div class="web-traffic-info mt-5 pe-5 col-12 col-md-8 position-relative">
-        <h2 class="display-5 fw-bold">
+        <h2 class="display-5 fw-bold position-relative">
           Increase your web <br />
           traffic with our
-          <span
-            class="border border-success border-2 position-relative d-inline-block text-primary"
-            >experts</span
-          >
-        </h2>
+          <span class="border border-primary position-relative border-2 d-inline-block text-primary expert-rotate ms-3 mt-3 ">
+              expert
+          </span>
+          <span class="position-absolute dot top-dot"></span>
+          <span class="position-absolute dot right-dot"></span>
+          <span class="position-absolute dot bottom-dot"></span>
+          <span class="position-absolute dot left-dot"></span>
+      </h2>
         <p class="fs-5 pt-3">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when It is a long .It is a long established
@@ -601,7 +603,7 @@
 <!--Meet our team begin-->
 <section class="meet-our-team container mt-5">
   <h2 class="text-center">Our Team</h2>
-  <p class="text-center pb-4">It is a long established fact that a reader will be distracted by the readable content .It is a long established fact that a reader </p>
+  <p class="text-center pb-4">It is a long established fact that a reader will be distracted by the readable content .It is a long established fact that a reader  </p>
 
   <div class="row">
     <div class="col-md-3 mb-4">
@@ -674,11 +676,59 @@
 
 <!--Meet our team end-->
 
+<!--clients say begin-->
+<section class="container clients-say-section-container mt-5">
+  <div class="display-6 fw-bold ">Subscribe & find the perfect Cosmetics</div>
+  <p class="lead mb-2">Enter your email and get updated new products & news</p>
+
+  <div class="clients-say-subscribe-form">
+    <div class="clients-say-form-group">
+      
+      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    </div>
+    
+    <div class="clients-say-form-group">
+     
+      <input type="text" class="form-control" id="address" placeholder="Email address">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Subscribe</button>
+  </div>
+</section>
+
+<!--clients say end-->
+
+
+
+<!--Footer begin-->
+<footer class="footer">
+  <div class="container">
+    <h4>Nuvosa<span style="color: #dc3545;">&bull;</span></h4>
+
+    <div class="footer-nav justify-content-evenly ">
+      <a href="#" class="nav-link">Overview</a>
+      <a href="#" class="nav-link">Pricing</a>
+      <a href="#" class="nav-link">Careers</a>
+      <a href="#" class="nav-link">Help</a>
+      <a href="#" class="nav-link">Privacy</a>
+    </div>
+<div class="footer-trademark-copyright d-flex justify-content-between flex-sm-column  pt-3">
+    <p class="copyright">Copyright Preserved</p>
+
+    <div class="terms-policy  ">
+      <a class="pe-4"href="#">Terms of use</a>
+      <a class="pe-4" href="#">Copyright & Trademark</a>
+      <a href="#">Policy</a>
+    </div>
+  </div>
+</div>
+</footer>
+
+<!--footer ends-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    
-    ></script>
+      crossorigin="anonymous">
+    </script>
   </body>
 </html>
