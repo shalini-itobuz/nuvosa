@@ -156,8 +156,13 @@
     text-align: center;
   }
 
-
-
+.client-card{
+  padding-left: 0;
+}
+.client-heading-section{
+  width: 39px;
+  margin: 0 auto;
+}
   .choose-us-card {
     margin-bottom: 20px;
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
@@ -287,7 +292,18 @@ color:#007BFF;
   padding: 10%;
 }
 
+.clients-say-dot {
+  height: 10px;
+  width: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
 
+.clients-say-dot:hover,.clients-say-dot:active{
+  background-color: #007BFF;
+}
   @media screen and (min-width: 425px) {
     .marketing-card{
         margin:0 auto;
@@ -430,6 +446,9 @@ color:#007BFF;
       .pricing-card {
        height:50vw;
         
+      }
+      .client-card{
+        display:unset;
       }
 }
 
