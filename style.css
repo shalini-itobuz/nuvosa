@@ -186,7 +186,10 @@
     display: flex;
     align-items: center;
   }
-
+  .sde-need-left-side img {
+    max-width: 100%;
+    height: auto;
+  }
   .sde-need-right-side {
     text-align: left;
   }
@@ -210,16 +213,72 @@
   }
 
 .client-heading-section{
-  width:90%;
+  width:80%;
   margin: 0 auto;
 }
   .client-card{
     width:10vw;
   }
 
-  .client-dot {
-   display: none;
+
+  .speed-img{
+    width:46vw;
+   
   }
+
+  .pricing-card {
+    background-color: white;
+    transition: background-color 0.3s;
+    
+  }
+
+  .pricing-card:hover, .pricing-card:active {
+    background-color: #007BFF;
+    color: #FAFAFA;
+  }
+
+  .get-started-btn {
+    background-color: white;
+    color: #007BFF;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .get-started-btn:hover, .get-started-btn:active {
+    background-color: #FFC107;
+    color: white;
+  }
+ .dollar-sign{
+  top:22%;
+  left:32%;
+ }
+
+ .meet-our-team{
+width:75%;
+ }
+
+ .meet-our-team-card {
+  background-color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meet-our-team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.rounded-circle{
+  width:8vw;
+}
+.social-logo {
+  width: 6%;
+  margin-top: 10px;
+  transition: filter 0.3s;
+}
+
+.social-logo:hover {
+  color: #007BFF;
+}
+
   @media screen and (min-width: 425px) {
     .marketing-card{
         margin:0 auto;
@@ -235,7 +294,7 @@
   }
   .card {
     text-align: center;
-    height: 34vw;
+    height: 54vh;
   }
 
   .card img {
@@ -247,11 +306,8 @@
 
   }
   .client-dot {
-    width: 2px;
-    height: 15px;
-    border-radius: 50%;
-   margin-top: 25px;
-   display: unset;
+   display:none;
+   
   }
 
 @media(max-width:430px){
@@ -259,6 +315,14 @@
         display: flex;
         flex-direction: column;
     }
+}
+@media (max-width: 576px) {
+  .sde-need-two-part-section {
+    padding: 15px;
+  }
+  .sde-need-right-side {
+    padding-top: 20px;
+  }
 }
 
 
@@ -284,6 +348,24 @@
         height: 200px;
         object-fit: cover;
       }
+      .speed-img{
+        width:33vw;
+       
+      }
+      .client-dot {display: none}
+      .client-card {
+        width: 15vw;
+    }
+    .dollar-sign{
+      top:20%;
+      left:39%;
+     }
+     .social-logo {
+      width: 15%;}
+      .pricing-card {
+       height:50vw;
+        
+      }
 }
 
 @media(min-width:1024px){
@@ -292,4 +374,27 @@
         margin-top: 37%;
         width:74%;
     }
+    .speed-img{
+      width:46vw;
+     
+    }
+    .client-dot {
+      width: 2px;
+      height: 23px;
+      border-radius: 50%;
+     margin-top: 25px;
+     
+    }
+    .client-dot {display: block;}
+    .client-card {
+      width: 10vw;
+  }
+  .dollar-sign{
+    top:22%;
+    left:24%;
+   }
+   .pricing-card {
+    height: unset;
+  }
 }
+
