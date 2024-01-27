@@ -264,6 +264,9 @@ width:75%;
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.meet-our-team-card-title:hover{
+color:#007BFF;
+}
 .rounded-circle{
   width:8vw;
 }
@@ -273,9 +276,17 @@ width:75%;
   transition: filter 0.3s;
 }
 
-.social-logo:hover {
-  color: #007BFF;
+.clients-say{
+  width:100%;
+
 }
+.clients-say-card {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  padding: 10%;
+}
+
 
   @media screen and (min-width: 425px) {
     .marketing-card{
